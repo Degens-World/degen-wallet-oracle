@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Degen Wallet Oracle — Degens.World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" id="stars"></div>
+
+  <header>
+    <div class="logo">⚗️ Degen Wallet Oracle</div>
+    <div class="sub">Powered by the Ergo blockchain &amp; ancient meme magic</div>
+  </header>
+
+  <main>
+    <section class="input-section">
+      <label for="walletInput">Enter an Ergo Wallet Address</label>
+      <div class="input-row">
+        <input id="walletInput" type="text" placeholder="9f... or 3... Ergo address" autocomplete="off" spellcheck="false" />
+        <button id="analyzeBtn" onclick="analyzeWallet()">Consult Oracle</button>
+      </div>
+      <div id="errorMsg" class="error-msg hidden"></div>
+    </section>
+
+    <section id="resultSection" class="result-section hidden">
+      <div class="score-card">
+        <div class="score-label">DEGEN SCORE</div>
+        <div class="score-value" id="scoreValue">0</div>
+        <div class="score-rank" id="scoreRank"></div>
+        <div class="score-bar-wrap">
+          <div class="score-bar" id="scoreBar"></div>
+        </div>
+      </div>
+
+      <div class="stats-grid" id="statsGrid"></div>
+
+      <div class="oracle-box">
+        <div class="oracle-title">🔮 Oracle Speaks</div>
+        <div class="oracle-text" id="oracleText"></div>
+      </div>
+
+      <div class="traits-box" id="traitsBox"></div>
+    </section>
+
+    <section id="loadingSection" class="loading-section hidden">
+      <div class="spinner"></div>
+      <div class="loading-text">Consulting the blockchain spirits…</div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Built for <a href="https://degens.world" target="_blank">Degens.World</a> · Data via <a href="https://api.ergoplatform.com" target="_blank">Ergo Explorer API</a></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
