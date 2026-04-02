@@ -1,5 +1,9 @@
 # Degen Wallet Oracle
 
+## Live Demo
+
+**[https://ad-degen-wallet-oracle-1775098077584.vercel.app](https://ad-degen-wallet-oracle-1775098077584.vercel.app)**
+
 Enter any Ergo address and find out how degen you really are.
 
 ## What it does
