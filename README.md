@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-**[https://ad-degen-wallet-oracle-1775099423721.vercel.app](https://ad-degen-wallet-oracle-1775099423721.vercel.app)**
+**[https://ad-degen-wallet-oracle-177509807758.vercel.app)**
 
 ## What it does
 
